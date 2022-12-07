@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 export const Button = ({ children, to }) => {
   return (
-    <Link to={to}>{children}</Link>
+    <Link style={{ border: '1px solid red' }} to={to}>{children}</Link>
   )
 }
 
